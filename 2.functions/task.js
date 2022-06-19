@@ -50,66 +50,15 @@ function makeWork(arrOfArr, func) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Задание 3
 function worker2(arr) {
-  console.log(Math.abs(maxMin(arr1).max - maxMin(arr1).min))
+
+  getArrayParams(arr)
+
   }
-    
-    function maxMin(arr1) {
-      let min = Infinity, max = -Infinity, sum = 0, avg = 0;
-    
-    for (let i=0; i < arr1.length; i++){
-      
-      sum = sum + arr1[i]
-    
-      if(arr1[i] < min){
-        min = arr1[i]
-      }
-    
-      if(arr1[i] > max){
-        max = arr1[i]
-      }
-    }
-    
-    
-      return { min: min, max: max};
-    }
-    
-    let total = 20; //количество элементов в массиве
-    let arr1 = [] 
-    
-    for (i=1; i < total; i++){
-      
-    getRandomInt(-100, 100)
-    
-      function getRandomInt(min, max) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        let x = Math.floor(Math.random() * (max - min)) + min  
-        arr1.push(x)
-        return arr1;    
-      } 
-      
-    }
-    console.log(arr1)
-    worker2(arr1)
-    
-    
   
-  
+ 
 
-
-
+    
+ 
+ 
